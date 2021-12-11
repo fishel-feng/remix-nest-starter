@@ -1,6 +1,6 @@
 {
-  "include": ["./**/*.ts"],
-  "exclude": ["./remix/**/*", "dist"],
+  "include": ["**/*.ts"],
+  "exclude": ["client/**/*", "dist", "build", "public", ".cache"],
   "compilerOptions": {
     "module": "commonjs",
     "declaration": true,
